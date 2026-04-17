@@ -2,10 +2,11 @@
 title: "Reproducible Research in Collaboration"
 subtitle: "Writing Academic Texts on GitHub Together"
 author: 
-  - "Aaron Peikert, Anabel Büchner & Hannes Diemerling"
+  - "Aaron Peikert & Anabel Büchner"
 date: '`r Sys.Date()`'
 output:
   xaringan::moon_reader:
+    seal: false
     css: xaringan-themer.css
     nature:
       slideNumberFormat: "%current%"
@@ -60,7 +61,7 @@ style_duo(
   header_font_google = google_font("Didact Gothic", "400", "400i"),
   text_font_google   = google_font("IBM Plex Sans", "400", "400i"),
   text_font_size = "1.5rem",
-  )
+)
 
 style_extra_css(css = list(".todo" = list(color = "#17C25B"),
                            ".optional" = list(color = "#05BCE6"),
@@ -72,8 +73,19 @@ style_extra_css(css = list(".todo" = list(color = "#17C25B"),
                                           border = "0px"),
                            ".vertical" = list(`writing-mode` = "vertical-rl",
                                               `text-orientation` = "mixed")),
-                )
+)
 ```
+
+## Reproducible Research in Collaboration
+
+### Writing Academic Texts on GitHub Together
+
+### Aaron Peikert, Anabel Büchner & Hannes Diemerling
+
+*Don't make yourself too comfortable, you will have to change your seat in a minute.*
+
+---
+class: middle, center
 
 ## ~~Why collaboration?~~
 
@@ -307,7 +319,7 @@ Happy collaborations:
 
 --
 
-This is as much as a **technological** challange, as a **sociological** one.
+This is as much as a **technological** challenge, as a **sociological** one.
 
 
 ---
@@ -481,7 +493,7 @@ name: github
 
 ---
 
-## Socialogical
+## Sociological
 
 1. everything in one place
 2. the issue of trust
@@ -509,6 +521,26 @@ template: github
 
 
 ---
+
+## Code of conduct 
+
+
+Before we get started, please note that this workshop follows the [Berlin Code of Conduct](https://github.com/aaronpeikert/repro-collab?tab=coc-ov-file#readme).
+
+We are here to learn together in a respectful and inclusive space.
+
+--
+
+Key principles for today:
+
+* Participate authentically and actively
+* Everyone is learning - questions and mistakes are welcome
+* Give feedback on code, not people
+* Help each other out when someone gets stuck
+
+---
+
+
 
 ## Get Active
 
@@ -544,7 +576,7 @@ Provide feedback: https://github.com/aaronpeikert/repro-collab/issues/new
 The next step is clear.
 
 1. Discussion
-2. Decission
+2. Decision
 2. Implementation
 
 ---
